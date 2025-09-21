@@ -1,0 +1,31 @@
+digraph Arvore {
+    node0x559f91bfb8f0 [label="-"];
+    node0x559f91bfb8f0 -> node0x559f91bfb570;
+    node0x559f91bfb570 [label="4"];
+    node0x559f91bfb8f0 -> node0x559f91bfb8b0;
+    node0x559f91bfb8b0 [label="*"];
+    node0x559f91bfb8b0 -> node0x559f91bfb730;
+    node0x559f91bfb730 [label="*"];
+    node0x559f91bfb730 -> node0x559f91bfb6b0;
+    node0x559f91bfb6b0 [label="+"];
+    node0x559f91bfb6b0 -> node0x559f91bfb630;
+    node0x559f91bfb630 [label="+"];
+    node0x559f91bfb630 -> node0x559f91bfb5b0;
+    node0x559f91bfb5b0 [label="5"];
+    node0x559f91bfb630 -> node0x559f91bfb5f0;
+    node0x559f91bfb5f0 [label="2"];
+    node0x559f91bfb6b0 -> node0x559f91bfb670;
+    node0x559f91bfb670 [label="2"];
+    node0x559f91bfb730 -> node0x559f91bfb6f0;
+    node0x559f91bfb6f0 [label="1"];
+    node0x559f91bfb8b0 -> node0x559f91bfb870;
+    node0x559f91bfb870 [label="*"];
+    node0x559f91bfb870 -> node0x559f91bfb770;
+    node0x559f91bfb770 [label="4"];
+    node0x559f91bfb870 -> node0x559f91bfb830;
+    node0x559f91bfb830 [label="+"];
+    node0x559f91bfb830 -> node0x559f91bfb7b0;
+    node0x559f91bfb7b0 [label="5"];
+    node0x559f91bfb830 -> node0x559f91bfb7f0;
+    node0x559f91bfb7f0 [label="9"];
+}
