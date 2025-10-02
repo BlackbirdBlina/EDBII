@@ -15,8 +15,6 @@ class Noh {
 
     int avaliar();
 
-    friend class BinaryTree;
-
     void gerarDot(std::ostream& out) const;
 };
 
